@@ -149,8 +149,8 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5em 0}
   border-bottom:1px solid var(--line);
 }
 .header-inner{display:flex;align-items:center;gap:22px;min-height:74px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);flex:0 0 auto}
-.brand img{width:46px;height:46px;object-fit:contain}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink);flex:0 0 auto}
+.brand img{width:55px;height:55px;object-fit:contain}
 .brand-text{display:flex;flex-direction:column;line-height:1.2}
 .brand-text strong{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--teal-deep);letter-spacing:-.01em}
 .nav{display:flex;align-items:center;gap:4px;margin-left:auto}
@@ -545,7 +545,7 @@ td strong{color:var(--teal-deep)}
   .stat:first-child{border-top:0}
   .brand-text small{font-size:.62rem}
   .header-inner{min-height:66px;gap:10px}
-  .brand img{width:40px;height:40px}
+  .brand img{width:48px;height:48px}
   .hero{padding-top:30px}
   .prize-main{padding:24px}
   .footer-bottom{flex-direction:column}
