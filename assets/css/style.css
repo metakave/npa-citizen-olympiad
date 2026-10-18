@@ -152,7 +152,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5em 0}
 .brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink);flex:0 0 auto}
 .brand img{width:55px;height:55px;object-fit:contain}
 .brand-text{display:flex;flex-direction:column;line-height:1.2}
-.brand-text strong{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--teal-deep);letter-spacing:-.01em}
+.brand-text strong{font-family:var(--serif);font-size:1.68rem;font-weight:700;color:var(--teal-deep);letter-spacing:-.01em}
 .nav{display:flex;align-items:center;gap:4px;margin-left:auto}
 .nav-link{
   color:var(--ink-soft);text-decoration:none;font-size:.94rem;font-weight:600;
@@ -555,7 +555,7 @@ td strong{color:var(--teal-deep)}
 }
 @media (max-width:420px){
   .wrap{padding:0 18px}
-  .brand-text strong{font-size:1.38rem}
+  .brand-text strong{font-size:1.45rem}
 }
 
 /* print: registration slip */
