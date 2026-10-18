@@ -151,9 +151,8 @@ hr{border:0;border-top:1px solid var(--line);margin:2.5em 0}
 .header-inner{display:flex;align-items:center;gap:22px;min-height:74px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);flex:0 0 auto}
 .brand img{width:46px;height:46px;object-fit:contain}
-.brand-text{display:flex;flex-direction:column;line-height:1.25}
-.brand-text strong{font-family:var(--serif);font-size:1.2rem;letter-spacing:-.01em}
-.brand-text small{font-size:.72rem;color:var(--muted);letter-spacing:.02em}
+.brand-text{display:flex;flex-direction:column;line-height:1.2}
+.brand-text strong{font-family:var(--serif);font-size:1.45rem;font-weight:700;color:var(--teal-deep);letter-spacing:-.01em}
 .nav{display:flex;align-items:center;gap:4px;margin-left:auto}
 .nav-link{
   color:var(--ink-soft);text-decoration:none;font-size:.94rem;font-weight:600;
@@ -556,7 +555,7 @@ td strong{color:var(--teal-deep)}
 }
 @media (max-width:420px){
   .wrap{padding:0 18px}
-  .brand-text strong{font-size:1.1rem}
+  .brand-text strong{font-size:1.25rem}
 }
 
 /* print: registration slip */
