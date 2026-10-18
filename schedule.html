@@ -1,299 +1,220 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>সময়সূচি ও ভেন্যু পরিকল্পনা | সুনাগরিক অলিম্পিয়াড ২০২৭</title>
-  <meta name="description" content="সুনাগরিক অলিম্পিয়াড ২০২৭-এর পূর্ণাঙ্গ ক্যালেন্ডার, রেজিস্ট্রেশন সময়সীমা, অনলাইন পরীক্ষা, বিভাগীয় ভেন্যু ও পরীক্ষার দিনের প্রয়োজনীয় চেকলিস্ট।">
-  <link rel="icon" type="image/png" href="/assets/images/npa-logo.png">
-  <link rel="stylesheet" href="/assets/css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>সময়সূচি ও ভেন্যু | সুনাগরিক অলিম্পিয়াড</title>
+<meta name="description" content="নিবন্ধন থেকে গ্র্যান্ড ফাইনাল পর্যন্ত পূর্ণ সময়সূচি, ভেন্যু পরিকল্পনা ও পরীক্ষার দিনের নির্দেশনা।">
+<meta name="theme-color" content="#005a5c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="সময়সূচি ও ভেন্যু | সুনাগরিক অলিম্পিয়াড">
+<meta property="og:description" content="নিবন্ধন থেকে গ্র্যান্ড ফাইনাল পর্যন্ত পূর্ণ সময়সূচি, ভেন্যু পরিকল্পনা ও পরীক্ষার দিনের নির্দেশনা।">
+<meta property="og:image" content="assets/img/og-card.png">
+<meta property="og:locale" content="bn_BD">
+<link rel="icon" href="assets/img/npa-logo.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/site.js" defer></script>
 </head>
-<body>
+<body data-page="schedule">
+<a class="skip-link" href="#main">মূল অংশে যান</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/npa-logo.png" alt="NPA লোগো" width="48" height="48">
+      <span class="brand-text">
+        <strong>সুনাগরিক অলিম্পিয়াড</strong>
+        <small>NPA · ঢাকা ও চট্টগ্রাম</small>
+      </span>
+    </a>
 
-  <!-- Site Navigation Header -->
-  <header class="site-header">
-    <div class="container">
-      <div class="nav-inner">
-        <a href="/" class="brand-wrapper">
-          <img src="/assets/images/npa-logo.png" alt="NPA Logo" class="brand-logo-img">
-          <div class="brand-text-block">
-            <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
-            <span class="brand-sub" data-i18n="brandSubtitle">Network for People's Action</span>
-          </div>
-        </a>
+    <nav class="nav" id="nav" aria-label="প্রধান মেনু">
+      <a class="nav-link" data-nav="index" href="index.html">হোম</a>
+      <a class="nav-link" data-nav="program" href="program.html">কর্মসূচি</a>
+      <a class="nav-link" data-nav="syllabus" href="syllabus.html">সিলেবাস</a>
+      <a class="nav-link is-active" data-nav="schedule" aria-current="page" href="schedule.html">সময়সূচি</a>
+      <a class="nav-link" data-nav="quiz" href="quiz.html">প্র্যাকটিস</a>
+      <a class="nav-link" data-nav="faq" href="faq.html">প্রশ্নোত্তর</a>
+    </nav>
 
-        <nav>
-          <ul class="nav-links">
-            <li><a href="/" class="nav-link" data-i18n="navHome">মূলপাতা</a></li>
-            <li><a href="/program.html" class="nav-link" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
-            <li><a href="/syllabus.html" class="nav-link" data-i18n="navSyllabus">সিলেবাস</a></li>
-            <li><a href="/schedule.html" class="nav-link active" data-i18n="navSchedule">সময়সূচি</a></li>
-            <li><a href="/quiz.html" class="nav-link" data-i18n="navQuiz">মডেল টেস্ট</a></li>
-            <li><a href="/faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
-          </ul>
-        </nav>
+    <a class="btn btn-primary btn-sm nav-cta" href="register.html">বিনামূল্যে নিবন্ধন</a>
 
-        <div class="nav-actions">
-          <button class="btn-icon-toggle lang-toggle-btn" aria-label="Toggle Language" title="Toggle Language">EN</button>
-          <button class="btn-icon-toggle theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme"></button>
-          <a href="/register.html" class="btn btn-primary nav-cta-btn" data-i18n="btnRegister">নিবন্ধন করুন</a>
-          <button class="btn-mobile-menu" aria-label="Open Navigation Menu">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </button>
+    <button class="btn-control-toggle theme-toggle-btn" type="button" aria-label="Toggle theme">🌙 Dark</button> <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="মেনু খুলুন">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">হোম</a><span>/</span>সময়সূচি</p>
+    <h1>সময়সূচি ও ভেন্যু</h1>
+    <p>সব তারিখ শনিবার—যাতে ক্লাস বা অফিসের দিন নষ্ট না হয়। রমজান শুরুর আগেই গ্র্যান্ড ফাইনাল, যাতে পরবর্তী সময়সূচিতে চাপ না পড়ে।</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="two-col">
+      <div>
+        <div class="section-head reveal" style="margin-bottom:20px">
+          <p class="kicker">মূল তারিখ</p>
+          <h2>চারটি ধাপ, চারটি তারিখ</h2>
         </div>
+        <ol class="timeline reveal">
+          <li class="is-key">
+            <span class="dot" aria-hidden="true"></span>
+            <p class="date">১ ডিসেম্বর ২০২৬ – ৩ জানুয়ারি ২০২৭</p>
+            <h3>নিবন্ধন</h3>
+            <p>অনলাইনে ফর্ম, সম্পূর্ণ বিনামূল্যে। নিবন্ধনের সঙ্গে অ্যাডমিট কার্ড এসএমএস ও ইমেইলে।</p>
+          </li>
+          <li class="is-key">
+            <span class="dot" aria-hidden="true"></span>
+            <p class="date">৯ জানুয়ারি ২০২৭, শনিবার · সকাল ১০:০০</p>
+            <h3>অনলাইন রাউন্ড</h3>
+            <p>৪৫ মিনিট, ৬০ প্রশ্ন, ঘরে বসে। লগইন লিংক ৬ জানুয়ারি পাঠানো হবে।</p>
+          </li>
+          <li class="is-key">
+            <span class="dot" aria-hidden="true"></span>
+            <p class="date">২৩ জানুয়ারি ২০২৭, শনিবার · সকাল ৯:৩০</p>
+            <h3>বিভাগীয় রাউন্ড</h3>
+            <p>ঢাকা ও চট্টগ্রামে একই দিনে। সকালে লিখিত, বিকেলে মৌখিক।</p>
+          </li>
+          <li class="is-key">
+            <span class="dot" aria-hidden="true"></span>
+            <p class="date">৩০ জানুয়ারি ২০২৭, শনিবার · দুপুর ২:০০</p>
+            <h3>গ্র্যান্ড ফাইনাল, ঢাকা</h3>
+            <p>২০ ফাইনালিস্ট, ৫ জুরি, সরাসরি সম্প্রচার। সন্ধ্যায় পুরস্কার প্রদান।</p>
+          </li>
+        </ol>
       </div>
-    </div>
-  </header>
 
-  <!-- Mobile Drawer Menu -->
-  <div class="mobile-drawer">
-    <div class="mobile-drawer-header">
-      <div class="brand-wrapper">
-        <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 38px;">
-        <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+      <div class="card reveal" style="align-self:start">
+        <h3>তারিখ বাছাইয়ের যুক্তি</h3>
+        <ul style="font-size:.92rem;color:var(--ink-soft)">
+          <li><strong>শনিবার:</strong> বাংলাদেশের কর্মদিবসের বাইরে, শিক্ষার্থী ও চাকরিজীবী দুজনের জন্যই সহজ।</li>
+          <li><strong>জানুয়ারি:</strong> শীতকাল—বৃষ্টি ও গরমের ঝুঁকি কম, ভেন্যু ব্যবস্থাপনা সহজ।</li>
+          <li><strong>রমজানের আগে:</strong> ২০২৭ সালে রমজান শুরু ফেব্রুয়ারির প্রথম সপ্তাহে; তার আগেই সবকিছু শেষ।</li>
+          <li><strong>সংঘর্ষ এড়ানো:</strong> কোনো বিশ্ববিদ্যালয় ভর্তি পরীক্ষা একই তারিখে পড়লে বিভাগীয় রাউন্ড ২৪ জানুয়ারি (রবিবার) হবে—সিদ্ধান্ত ১০ জানুয়ারির মধ্যে ঘোষণা।</li>
+        </ul>
+        <p class="form-note" style="margin-top:14px">সব সময় বাংলাদেশ সময় (UTC+৬)। তারিখ পরিবর্তন হলে নিবন্ধিত সবাইকে এসএমএস ও ইমেইলে জানানো হবে।</p>
       </div>
-      <button class="btn-close-drawer btn-icon-toggle">✕</button>
     </div>
-    <ul class="mobile-nav-links">
-      <li><a href="/" data-i18n="navHome">মূলপাতা</a></li>
-      <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
-      <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস</a></li>
-      <li><a href="/schedule.html" class="active" data-i18n="navSchedule">সময়সূচি</a></li>
-      <li><a href="/quiz.html" data-i18n="navQuiz">মডেল টেস্ট</a></li>
-      <li><a href="/faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
-    </ul>
-    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 1rem;">
-      <a href="/register.html" class="btn btn-primary btn-lg" style="width: 100%; text-align: center;" data-i18n="btnRegister">নিবন্ধন করুন</a>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="kicker">পূর্ণ সময়রেখা</p>
+      <h2>নভেম্বর থেকে ফেব্রুয়ারি</h2>
+    </div>
+    <div class="table-wrap reveal">
+      <table>
+        <caption>সারণি — আয়োজনের ধাপ ও দায়িত্ব</caption>
+        <thead><tr><th>তারিখ</th><th>ধাপ</th><th>বিস্তারিত</th><th>দায়িত্ব</th></tr></thead>
+        <tbody>
+          <tr><td>১–৩০ নভে</td><td>প্রস্তুতি</td><td>জুরি চূড়ান্ত, প্রশ্ন প্রণয়ন ও যাচাই, ভেন্যু বুকিং, স্পনসর চুক্তি</td><td>প্রকল্প দল</td></tr>
+          <tr><td>১ ডিসে</td><td>নিবন্ধন শুরু</td><td>ওয়েবসাইট ও ফর্ম চালু, ক্যাম্পাস অ্যাম্বাসেডর নিয়োগ শুরু</td><td>আউটরিচ</td></tr>
+          <tr><td>১–২০ ডিসে</td><td>ক্যাম্পাস রোডশো</td><td>ঢাকা ও চট্টগ্রামের ৩০ ক্যাম্পাসে সেশন</td><td>অ্যাম্বাসেডর + আউটরিচ</td></tr>
+          <tr><td>৫ ডিসে</td><td>প্র্যাকটিস কুইজ</td><td>ওয়েবসাইটে ১২ প্রশ্নের প্র্যাকটিস চালু</td><td>ডিজিটাল</td></tr>
+          <tr><td>৩ জানু</td><td>নিবন্ধন শেষ</td><td>রাত ১১:৫৯ পর্যন্ত</td><td>ডেটা দল</td></tr>
+          <tr><td>৬ জানু</td><td>অ্যাডমিট কার্ড</td><td>এসএমএস ও ইমেইলে লগইন লিংক</td><td>ডেটা দল</td></tr>
+          <tr><td>৯ জানু</td><td>অনলাইন রাউন্ড</td><td>সকাল ১০:০০–১০:৪৫; ১১ জানু মেক-আপ স্লট</td><td>পরীক্ষা কমিটি</td></tr>
+          <tr><td>১৬ জানু</td><td>ফলাফল</td><td>৬০০ বিভাগীয় প্রতিযোগী ঘোষণা ও উত্তরপত্র প্রকাশ</td><td>পরীক্ষা কমিটি</td></tr>
+          <tr><td>২১ জানু</td><td>প্রকল্প জমা</td><td>নাগরিক প্রকল্পের শেষ সময় (বোনাস ট্র্যাক)</td><td>প্রকল্প ডেস্ক</td></tr>
+          <tr><td>২৩ জানু</td><td>বিভাগীয় রাউন্ড</td><td>ঢাকা ও চট্টগ্রাম, সকাল ৯:৩০ থেকে বিকেল ৫:০০</td><td>শহর সমন্বয়ক</td></tr>
+          <tr><td>২৫ জানু</td><td>ফাইনালিস্ট ঘোষণা</td><td>২০ জনের নাম ও যাতায়াত ব্যবস্থা</td><td>প্রকল্প দল</td></tr>
+          <tr><td>৩০ জানু</td><td>গ্র্যান্ড ফাইনাল</td><td>ঢাকা, দুপুর ২:০০–সন্ধ্যা ৭:০০</td><td>সব ইউনিট</td></tr>
+          <tr><td>ফেব্রুয়ারি</td><td>ফলো-আপ</td><td>ফেলোশিপ শুরু, নাগরিক ক্লাবের প্রথম সভা (১৩ ফেব্রু)</td><td>প্রোগ্রাম দল</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card reveal">
+        <h3>ভেন্যু পরিকল্পনা</h3>
+        <p style="margin-bottom:12px">ঢাকা ও চট্টগ্রামে প্রতিটি ১২০ আসনের হল—চূড়ান্ত ভেন্যু চুক্তির পর ঘোষণা করা হবে।</p>
+        <ul style="font-size:.92rem;color:var(--ink-soft)">
+          <li>হুইলচেয়ার-অভিগম্য প্রবেশপথ ও আসন</li>
+          <li>আলাদা অপেক্ষাকক্ষ ও নারীদের জন্য পৃথক ওয়াশরুম</li>
+          <li>ব্যাকআপ বিদ্যুৎ, ইন্টারনেট ও মেডিকেল কর্নার</li>
+          <li>স্থানীয় প্রশাসন ও থানায় আগাম জানানো, নিরাপত্তা পরিকল্পনা</li>
+          <li>সর্বোচ্চ ২ ঘণ্টার মধ্যে ফলপ্রকাশ—লিখিত খাতা একসঙ্গে মূল্যায়ন</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>পরীক্ষার দিন যা সঙ্গে আনবে</h3>
+        <ul style="font-size:.92rem;color:var(--ink-soft)">
+          <li>অ্যাডমিট কার্ড (মোবাইলে স্ক্রিনশট বা প্রিন্ট)</li>
+          <li>ছবিসহ পরিচয়পত্র—শিক্ষার্থী আইডি, NID বা জন্মসনদ</li>
+          <li>কলম ও পানির বোতল</li>
+          <li>১৬–১৭ বছর হলে অভিভাবকের সম্মতিপত্র</li>
+        </ul>
+        <p class="form-note" style="margin-top:14px">মোবাইল ফোন পরীক্ষা হলে জমা রাখতে হবে; অনলাইন রাউন্ডে ফোনই ব্যবহারযোগ্য। কোনো প্রবেশ ফি নেই—কেউ টাকা চাইলে সঙ্গে সঙ্গে আমাদের ফেসবুক পেজে জানাও।</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="band-grid">
+        <div>
+          <h2>তারিখ মনে রাখার দরকার নেই—আমরা জানিয়ে দেব</h2>
+          <p>নিবন্ধন করলে অ্যাডমিট কার্ড, রিমাইন্ডার ও ফলাফল এসএমএস ও ইমেইলে যাবে। ফর্মটি ২ মিনিটের।</p>
+        </div>
+        <div><a class="btn btn-amber" href="register.html">নিবন্ধন করো →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/npa-logo.png" alt="" width="56" height="56">
+      <p class="footer-word">সুনাগরিক অলিম্পিয়াড</p>
+      <p class="footer-line">নাগরিকত্ব কোনো পদবি নয় — একটি দৈনন্দিন চর্চা।</p>
+      <p class="footer-org">আয়োজনে <a href="https://ournpa.org/" target="_blank" rel="noopener">নেটওয়ার্ক ফর পিপলস অ্যাকশন (NPA)</a></p>
+    </div>
+
+    <nav class="footer-col" aria-label="অলিম্পিয়াড">
+      <h3>অলিম্পিয়াড</h3>
+      <a href="program.html">কর্মসূচি ও রাউন্ড</a>
+      <a href="syllabus.html">সিলেবাস ও মানদণ্ড</a>
+      <a href="schedule.html">সময়সূচি</a>
+      <a href="quiz.html">প্র্যাকটিস কুইজ</a>
+      <a href="register.html">নিবন্ধন</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="সংগঠন">
+      <h3>সংগঠন</h3>
+      <a href="https://ournpa.org/manifesto" target="_blank" rel="noopener">ঘোষণাপত্র</a>
+      <a href="https://ournpa.org/membership" target="_blank" rel="noopener">সদস্য হোন</a>
+      <a href="https://ournpa.org/statistics" target="_blank" rel="noopener">পরিসংখ্যান</a>
+      <a href="faq.html">প্রশ্নোত্তর</a>
+    </nav>
+
+    <div class="footer-col footer-social">
+      <h3>যুক্ত থাকুন</h3>
+      <a href="https://www.facebook.com/ournpa" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/ournpa/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/our_npa" target="_blank" rel="noopener">X</a>
+      <a href="https://www.youtube.com/@our_npa" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://whatsapp.com/channel/0029Vb7qlDq1CYoQKV0MlK2Z" target="_blank" rel="noopener">WhatsApp চ্যানেল</a>
+      <a href="https://t.me/our_npa" target="_blank" rel="noopener">Telegram</a>
     </div>
   </div>
 
-  <main style="padding-top: 120px; padding-bottom: 60px;">
-    <div class="container">
-      
-      <!-- Page Header -->
-      <div class="section-header" style="margin-bottom: 3rem;">
-        <span class="section-tag">ক্যালেন্ডার ও পরিকল্পনা</span>
-        <h1 class="font-serif-bn">সময়সূচি, ভেন্যু ও পরীক্ষার দিনের নির্দেশিকা</h1>
-        <p>সকল গুরুত্বপূর্ণ তারিখ, বিশ্ববিদ্যালয়ের ভর্তি পরীক্ষা বিবেচনা ও বিভাগীয় ভেন্যু সংক্রান্ত তথ্য।</p>
-        <div class="divider-line"></div>
-      </div>
-
-      <!-- Schedule Justification Note -->
-      <div style="background: var(--bg-card); border-left: 4px solid var(--primary); padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); margin-bottom: 3rem;">
-        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">তারিখ নির্বাচনের বিশেষ তাৎপর্য</h4>
-        <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0; line-height: 1.7;">
-          প্রতিযোগিতার তিনটি রাউন্ডই <strong>শনিবার (Saturday)</strong> অনুষ্ঠিত হচ্ছে যাতে চাকরিজীবী ও শিক্ষার্থীদের ক্লাসে কোনো ব্যাঘাত না ঘটে। এছাড়াও পুরো ইভেন্টটি ফেব্রুয়ারির শুরুতে পবিত্র মাহে রমজান শুরু হওয়ার আগেই সম্পন্ন হবে এবং বিশ্ববিদ্যালয়ের ভর্তি পরীক্ষার সূচির সাথে কোনো প্রকার সংঘর্ষ তৈরি করবে না। (জরুরি প্রয়োজন বিবেচনায় বিভাগীয় পর্বের একটি ব্যাকআপ তারিখ রাখা হয়েছে: <strong>২৪ জানুয়ারি ২০২৭, রবিবার</strong>)।
-        </p>
-      </div>
-
-      <!-- Master Schedule Table -->
-      <div class="custom-table-wrapper" style="margin-bottom: 3.5rem;">
-        <table class="custom-table">
-          <thead>
-            <tr>
-              <th>তারিখ ও সময়কাল</th>
-              <th>ইভেন্ট ও ধাপ</th>
-              <th>স্থান / মাধ্যম</th>
-              <th>বিবরণ ও করণীয়</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>১ ডিসেম্বর ২০২৬ – ৩ জানুয়ারি ২০২৭</strong></td>
-              <td>অনলাইন রেজিস্ট্রেশন</td>
-              <td>অফিসিয়াল ওয়েবসাইট</td>
-              <td>কোনো ফি নেই। ফর্ম পূরণ করে তাৎক্ষণিক অ্যাপ্লিকেশন আইডি ও স্লিপ সংগ্রহ করুন।</td>
-            </tr>
-            <tr>
-              <td><strong>৬ জানুয়ারি ২০২৭</strong></td>
-              <td>অ্যাডমিট কার্ড প্রকাশ</td>
-              <td>অনলাইন পোর্টাল</td>
-              <td>পরীক্ষার লগইন লিংক, সময় স্লট ও অনলাইন নিয়মাবলী সহ অ্যাডমিট ডাউনলোড।</td>
-            </tr>
-            <tr style="background-color: var(--primary-50);">
-              <td><strong>৯ জানুয়ারি ২০২৭</strong><br><small>শনিবার সকাল ১০:০০</small></td>
-              <td><strong>১. অনলাইন বাছাই পর্ব (MCQ)</strong></td>
-              <td>অনলাইন এক্সাম পোর্টাল</td>
-              <td>৪৫ মিনিটে ৬০টি বহুনির্বাচনী প্রশ্ন। একযোগে ঢাকা ও চট্টগ্রামে।</td>
-            </tr>
-            <tr>
-              <td><strong>১১ জানুয়ারি ২০২৭</strong></td>
-              <td>মেক-আপ রাউন্ড (জরুরি কারিগরি ফল্ট)</td>
-              <td>অনলাইন</td>
-              <td>শুধুমাত্র ইন্টারনেট বিভ্রাট সংক্রান্ত প্রমাণসাপেক্ষ আবেদনকারীদের জন্য সংরক্ষিত।</td>
-            </tr>
-            <tr>
-              <td><strong>১৬ জানুয়ারি ২০২৭</strong></td>
-              <td>অনলাইন ফলাফল ও অফিসিয়াল আনসার-কী</td>
-              <td>ওয়েবসাইটে উন্মুক্ত</td>
-              <td>শীর্ষ ৩০০+৩০০=৬০০ জন বিভাগীয় পর্বের জন্য মনোনীত হবেন। পূর্ণাঙ্গ উত্তরপত্র প্রকাশ।</td>
-            </tr>
-            <tr>
-              <td><strong>১৭ – ২১ জানুয়ারি ২০২৭</strong></td>
-              <td>৭ দিনের নাগরিক প্রকল্প সাবমিশন</td>
-              <td>অনলাইন প্রজেক্ট ড্রপবক্স</td>
-              <td>উত্তীর্ণ ৬০০ জনের নিজস্ব এলাকার বাস্তব নাগরিক উদ্যোগের ২ পৃষ্ঠার লগ জমা।</td>
-            </tr>
-            <tr style="background-color: var(--primary-50);">
-              <td><strong>২৩ জানুয়ারি ২০২৭</strong><br><small>শনিবার (ব্যাকআপ: ২৪ জানু)</small></td>
-              <td><strong>২. বিভাগীয় লিখিত ও মৌখিক পর্ব</strong></td>
-              <td>ঢাকা ও চট্টগ্রাম ভেন্যু</td>
-              <td>৯০ মিনিটের কেস সমাধান + ৫ মিনিটের মৌখিক জুরি ডিফেন্স। মোট ২০ জন ফাইনালিস্ট নির্বাচন।</td>
-            </tr>
-            <tr>
-              <td><strong>২৫ জানুয়ারি ২০২৭</strong></td>
-              <td>চূড়ান্ত ২০ জন ফাইনালিস্টের তালিকা প্রকাশ</td>
-              <td>ওয়েবসাইট ও মিডিয়া</td>
-              <td>ঢাকা থেকে ১০ জন এবং চট্টগ্রাম থেকে ১০ জন সমমর্যাদার ফাইনালিস্ট।</td>
-            </tr>
-            <tr style="background-color: var(--primary-100);">
-              <td><strong>৩০ জানুয়ারি ২০২৭</strong><br><small>শনিবার বিকাল ৩:০০ – রাত ৮:০০</small></td>
-              <td><strong>৩. জাতীয় গ্র্যান্ড ফাইনাল ও গালা</strong></td>
-              <td>ঢাকা কেন্দ্রীয় অডিটোরিয়াম</td>
-              <td>লাইভ স্টেজ ডিলেমা, পলিসি পিচ, লাইভস্ট্রিম ও ৫,৩০,০০০ টাকার পুরস্কার প্রদান।</td>
-            </tr>
-            <tr>
-              <td><strong>১৩ ফেব্রুয়ারি ২০২৭</strong></td>
-              <td>নাগরিক ফেলোশিপ ওরিয়েন্টেশন</td>
-              <td>এনপিএ পলিসি ল্যাব</td>
-              <td>২০ জন নির্বাচিত ফেলো ও ক্যাম্পাস অ্যাম্বাসেডরদের ১২ মাসের কর্মসূচি শুরু।</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- Venue Information -->
-      <h2 class="font-serif-bn" style="margin-bottom: 1.5rem;">ভেন্যু ও আঞ্চলিক পরিকল্পনা</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
-        
-        <div class="card">
-          <span class="badge badge-primary">বিভাগীয় ভেন্যু</span>
-          <h3 class="font-serif-bn" style="margin: 0.75rem 0;">ঢাকা বিভাগীয় রাউন্ড</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">
-            <strong>ভেন্যু:</strong> কেন্দ্রীয় বিশ্ববিদ্যালয় মিলনায়তন / আইইবি মিলনায়তন, রমনা, ঢাকা (নিশ্চিতকরণ প্রক্রিয়াধীন)।
-          </p>
-          <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-main); line-height: 1.7; margin-top: 0.75rem;">
-            <li>আসন বিন্যাস: ৩০০ জন বিভাগীয় কোয়ালিফায়ার</li>
-            <li>তারিখ: ২৩ জানুয়ারি ২০২৭, শনিবার সকাল ৯:০০</li>
-            <li>সহযোগিতায়: ঢাকা ১৬টি বিশ্ববিদ্যালয় ক্যাম্পাস অ্যাম্বাসেডর নেটওয়ার্ক</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <span class="badge badge-primary">বিভাগীয় ভেন্যু</span>
-          <h3 class="font-serif-bn" style="margin: 0.75rem 0;">চট্টগ্রাম বিভাগীয় রাউন্ড</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">
-            <strong>ভেন্যু:</strong> থিয়েটার ইনস্টিটিউট চট্টগ্রাম (টিঅাইসি) / ইঞ্জিনিয়ার্স ইনস্টিটিউট, জামালখান, চট্টগ্রাম।
-          </p>
-          <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-main); line-height: 1.7; margin-top: 0.75rem;">
-            <li>আসন বিন্যাস: ৩০০ জন বিভাগীয় কোয়ালিফায়ার</li>
-            <li>তারিখ: ২৩ জানুয়ারি ২০২৭, শনিবার সকাল ৯:০০</li>
-            <li>সহযোগিতায়: চট্টগ্রাম ১৪টি বিশ্ববিদ্যালয় ক্যাম্পাস অ্যাম্বাসেডর টিম</li>
-          </ul>
-        </div>
-
-        <div class="card" style="border: 2px solid var(--accent-amber);">
-          <span class="badge badge-amber">জাতীয় ভেন্যু</span>
-          <h3 class="font-serif-bn" style="margin: 0.75rem 0;">জাতীয় গ্র্যান্ড ফাইনাল</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">
-            <strong>ভেন্যু:</strong> জাতীয় জাদুঘর প্রধান মিলনায়তন / শিল্পকলা একাডেমি, সেগুনবাগিচা, ঢাকা।
-          </p>
-          <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-main); line-height: 1.7; margin-top: 0.75rem;">
-            <li>তারিখ: ৩০ জানুয়ারি ২০২৭, শনিবার বিকাল ৩:০০</li>
-            <li>চট্টগ্রামের ১০ জন ফাইনালিস্ট ও টিমের আসা-যাওয়া ও থাকার সম্পূর্ণ খরচ আয়োজক বহন করবে।</li>
-            <li>সরাসরি জাতীয় গণমাধ্যম ও ডিজিটাল মাধ্যমে লাইভ সম্প্রচার।</li>
-          </ul>
-        </div>
-
-      </div>
-
-      <!-- Exam Day Checklist -->
-      <div style="background: var(--bg-surface); border: 1.5px solid var(--border); border-radius: var(--radius-xl); padding: 2.5rem;">
-        <h3 class="font-serif-bn" style="color: var(--primary); margin-bottom: 1.5rem;">পরীক্ষার দিনের চেকলিস্ট (Checklist for Contestants)</h3>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-          <div>
-            <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem;">অনলাইন বাছাই পর্বের জন্য:</h4>
-            <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.7;">
-              <li>স্থিতিশীল ইন্টারনেট সংযোগ সহ স্মার্টফোন বা কম্পিউটার।</li>
-              <li>রেজিস্ট্রেশনের সময় ব্যবহৃত সচল মোবাইল সিম (ওটিপি ভেরিফিকেশনের জন্য)।</li>
-              <li>পরীক্ষা শুরুর কমপক্ষে ১৫ মিনিট পূর্বে পোর্টালে লগইন করা।</li>
-            </ul>
-          </div>
-          <div>
-            <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem;">বিভাগীয় সশরীরে পর্বের জন্য:</h4>
-            <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.7;">
-              <li>প্রিন্ট করা অফিসিয়াল অ্যাডমিট কার্ড / অ্যাপ্লিকেশন স্লিপ।</li>
-              <li>শিক্ষাপ্রতিষ্ঠানের সচিত্র আইডি কার্ড অথবা জাতীয় পরিচয়পত্র (NID) / জন্মনিবন্ধন সনদ।</li>
-              <li>৭ দিনের নাগরিক প্রকল্পের ২ পৃষ্ঠার প্রিন্ট কপি (যদি জমা দিয়ে থাকেন)।</li>
-              <li>কালো কালির বলপয়েন্ট কলম।</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- CTA -->
-      <div style="text-align: center; margin-top: 4rem;">
-        <h3 class="font-serif-bn" style="margin-bottom: 1rem;">সময় নষ্ট না করে আজই নিজের আসন নিশ্চিত করুন</h3>
-        <a href="/register.html" class="btn btn-primary btn-lg" data-i18n="btnStartRegister">নিবন্ধন করুন</a>
-      </div>
-
-    </div>
-  </main>
-
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <div class="brand-wrapper" style="margin-bottom: 1.25rem;">
-            <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 44px;">
-            <div class="brand-text-block">
-              <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
-              <span class="brand-sub">Network for People's Action</span>
-            </div>
-          </div>
-          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;" data-i18n="footerDesc">
-            সুনাগরিক অলিম্পিয়াড হলো তরুণ প্রজন্মের সাংবিধানিক সাক্ষরতা, নাগরিক অধিকার সচেতনতা ও নেতৃত্ব বিকাশের উন্মুক্ত জাতীয় মঞ্চ। আয়োজনে: Network for People's Action (NPA)।
-          </p>
-        </div>
-        <div class="footer-col">
-          <h4 data-i18n="footerQuickLinks">প্রয়োজনীয় লিংক</h4>
-          <ul class="footer-links">
-            <li><a href="/" data-i18n="navHome">মূলপাতা</a></li>
-            <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
-            <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস ও পাঠ্যতালিকা</a></li>
-            <li><a href="/schedule.html" data-i18n="navSchedule">সময়সূচি ও ভেন্যু</a></li>
-            <li><a href="/quiz.html" data-i18n="navQuiz">অনলাইন মডেল টেস্ট</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 data-i18n="footerContact">যোগাযোগ</h4>
-          <ul class="footer-links">
-            <li><a href="mailto:olympiad@ournpa.org">olympiad@ournpa.org</a></li>
-            <li><a href="https://ournpa.org" target="_blank" rel="noopener">www.ournpa.org</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>স্বচ্ছতা ও নীতি</h4>
-          <ul class="footer-links">
-            <li><a href="/faq.html#privacy">তথ্য সুরক্ষা ও গোপনীয়তা নীতি</a></li>
-            <li><a href="/faq.html">আপিল প্রক্রিয়া</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div>© ২০২৬–২০২৭ সুনাগরিক অলিম্পিয়াড | Network for People's Action (NPA)</div>
-        <div>Theme: Light / Dark | Cloudflare Pages Ready</div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/assets/js/config.js"></script>
-  <script src="/assets/js/translations.js"></script>
-  <script src="/assets/js/main.js"></script>
-</body>
-</html>
+  <div class="wrap footer-bottom">
+    <p>© ২০২৭ Network for People's Action (NPA)। অলিম্পিয়াডের প্রশ্নপত্র, সিলেবাস ও ফলাফল প্রকাশ্য।</p>
+    <p class="footer-legal">অংশগ্রহণ সম্পূর্ণ বিনামূল্যে ও দলীয় সদস্যপদ নিরপেক্ষ। ব্যক্তিগত তথ্য শুধু অলিম্পিয়াড পরিচালনা ও যোগাযোগের জন্য ব্যবহৃত হয় — <a href="faq.html#privacy">গোপনীয়তা নীতি</a>।</p>
+  </div>
+</footer>
