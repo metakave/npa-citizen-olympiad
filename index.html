@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সুনাগরিক অলিম্পিয়াড ২০২৭ | Good Citizen Olympiad - NPA</title>
+  <meta name="description" content="সুনাগরিক অলিম্পিয়াড ২০২৭ — ঢাকা ও চট্টগ্রামের তরুণ প্রজন্মের জন্য একটি মুক্ত নাগরিক জ্ঞান ও উদ্যোগের প্রতিযোগিতা। আয়োজনে: Network for People's Action (NPA)।">
+  <meta name="keywords" content="Good Citizen Olympiad, সুনাগরিক অলিম্পিয়াড, NPA, Network for People's Action, সংবিধান, নাগরিক অধিকার, জুলাই গণঅভ্যুত্থান, ঢাকা, চট্টগ্রাম">
+  <meta property="og:title" content="সুনাগরিক অলিম্পিয়াড ২০২৭ | Good Citizen Olympiad">
+  <meta property="og:description" content="নাগরিকত্ব কোনো পদবি নয় — একটি দৈনন্দিন চর্চা। সর্বমোট ৫,৩০,০০০ টাকার পুরস্কার পুল। কোনো ফি নেই।">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://olympiad.ournpa.org/">
+  <meta property="og:image" content="/assets/images/npa-logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/npa-logo.png">
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-inner">
+        <!-- Logo and Brand -->
+        <a href="/" class="brand-wrapper">
+          <img src="/assets/images/npa-logo.png" alt="NPA Logo" class="brand-logo-img">
+          <div class="brand-text-block">
+            <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+            <span class="brand-sub" data-i18n="brandSubtitle">Network for People's Action</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/" class="nav-link active" data-i18n="navHome">মূলপাতা</a></li>
+            <li><a href="/program.html" class="nav-link" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+            <li><a href="/syllabus.html" class="nav-link" data-i18n="navSyllabus">সিলেবাস</a></li>
+            <li><a href="/schedule.html" class="nav-link" data-i18n="navSchedule">সময়সূচি</a></li>
+            <li><a href="/quiz.html" class="nav-link" data-i18n="navQuiz">মডেল টেস্ট</a></li>
+            <li><a href="/faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          </ul>
+        </nav>
+
+        <!-- Actions: Theme toggle, Language toggle, Register CTA -->
+        <div class="nav-actions">
+          <button class="btn-icon-toggle lang-toggle-btn" aria-label="Toggle Language" title="Toggle Language">EN</button>
+          <button class="btn-icon-toggle theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme"></button>
+          <a href="/register.html" class="btn btn-primary nav-cta-btn" data-i18n="btnRegister">নিবন্ধন করুন</a>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button class="btn-mobile-menu" aria-label="Open Navigation Menu">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <div class="brand-wrapper">
+        <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 38px;">
+        <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+      </div>
+      <button class="btn-close-drawer btn-icon-toggle" aria-label="Close Menu">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="/" class="active" data-i18n="navHome">মূলপাতা</a></li>
+      <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+      <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস</a></li>
+      <li><a href="/schedule.html" data-i18n="navSchedule">সময়সূচি</a></li>
+      <li><a href="/quiz.html" data-i18n="navQuiz">মডেল টেস্ট</a></li>
+      <li><a href="/faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+    </ul>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 1rem;">
+      <a href="/register.html" class="btn btn-primary btn-lg" style="width: 100%; text-align: center;" data-i18n="btnRegister">নিবন্ধন করুন</a>
+      <div style="display: flex; gap: 0.5rem; justify-content: center;">
+        <button class="btn btn-secondary lang-toggle-btn" style="flex: 1;">Language: EN/বাং</button>
+        <button class="btn btn-secondary theme-toggle-btn" style="flex: 1;">Theme</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container hero-content">
+        <span class="badge badge-primary" data-i18n="heroBadge">নাগরিক সচেতনতা ও রাজনৈতিক রূপান্তর ২০২৭</span>
+        <h1 class="hero-title font-serif-bn" data-i18n="heroTitle">সুনাগরিক অলিম্পিয়াড</h1>
+        <p class="hero-lead font-serif-bn" style="font-weight: 600; color: var(--primary);" data-i18n="heroSubtitle">
+          নাগরিকত্ব কোনো পদবি নয় — একটি দৈনন্দিন চর্চা।
+        </p>
+        <p class="hero-lead" data-i18n="heroDesc">
+          একটি নাগরিক জ্ঞান ও উদ্যোগের প্রতিযোগিতা — যা নতুন প্রজন্মকে নেতৃত্ব দেবে এবং শ্রদ্ধার সাথে কথা বলার অধিকার অর্জন করবে। কোনো ফি নেই, সবার জন্য উন্মুক্ত।
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="/register.html" class="btn btn-primary btn-lg" data-i18n="btnStartRegister">এখনই নিবন্ধন করুন</a>
+          <a href="/quiz.html" class="btn btn-secondary btn-lg" data-i18n="btnTryQuiz">মডেল টেস্ট দিন</a>
+          <a href="/syllabus.html" class="btn btn-secondary btn-lg" data-i18n="btnExploreSyllabus">সিলেবাস দেখুন</a>
+        </div>
+
+        <!-- Live Statistics Ribbon -->
+        <div class="stats-ribbon">
+          <div class="stat-item">
+            <div class="stat-number" data-i18n="statPrize">৳৫,৩০,০০০</div>
+            <div class="stat-label" data-i18n="statPrizeLabel">মোট পুরস্কার পুল</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-i18n="statParticipants">৬,০০০+</div>
+            <div class="stat-label" data-i18n="statParticipantsLabel">প্রত্যাশিত প্রতিযোগী</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-i18n="statCities">ঢাকা ও চট্টগ্রাম</div>
+            <div class="stat-label" data-i18n="statCitiesLabel">আঞ্চলিক স্তর</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-i18n="statFellowship">২০ জন</div>
+            <div class="stat-label" data-i18n="statFellowshipLabel">নাগরিক ফেলোশিপ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 NPA PRINCIPLES MAPPED TO 5 MODULES -->
+    <section style="padding: 5rem 0; background: var(--bg-surface);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="principlesTag">এনপিএ-র ভিত্তি ও অলিম্পিয়াডের কাঠামো</span>
+          <h2 class="font-serif-bn" data-i18n="principlesTitle">৫টি মূলনীতি ও অলিম্পিয়াডের বিষয়বস্তু</h2>
+          <p data-i18n="principlesDesc">
+            Network for People's Action (NPA)-এর পঞ্চনীতি সরাসরি প্রতিফলিত হয়েছে অলিম্পিয়াডের প্রতিটি মডিউলে — যেখানে তাত্ত্বিক জ্ঞানের সাথে যুক্ত হয়েছে দৈনন্দিন নাগরিক তৎপরতা।
+          </p>
+          <div class="divider-line"></div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem;">
+          <!-- Module 1 -->
+          <div class="card">
+            <div class="card-icon-box">১</div>
+            <span class="badge badge-primary" style="margin-bottom: 0.75rem;" data-i18n="m1Sub">এনপিএ মূলনীতি: গণতন্ত্র</span>
+            <h3 style="margin-bottom: 0.75rem;" data-i18n="m1Title">সংবিধান, গণতন্ত্র ও নাগরিক অধিকার</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="m1Desc">
+              সংবিধানের ৭ম অনুচ্ছেদ ('রাষ্ট্রের সকল ক্ষমতার মালিক জনগণ'), মৌলিক অধিকার, সংসদ, স্থানীয় সরকার ও নির্বাচন প্রক্রিয়া।
+            </p>
+          </div>
+
+          <!-- Module 2 -->
+          <div class="card">
+            <div class="card-icon-box">২</div>
+            <span class="badge badge-primary" style="margin-bottom: 0.75rem;" data-i18n="m2Sub">এনপিএ মূলনীতি: সাম্য + মানবিক মর্যাদা</span>
+            <h3 style="margin-bottom: 0.75rem;" data-i18n="m2Title">সাম্য, বহুত্ব ও প্রান্তিক সুরক্ষা</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="m2Desc">
+              আইনের চোখে সমতা, সংখ্যালঘু ও নারীর সমান অধিকার, জাতিগত ও লৈঙ্গিক বহুত্ব এবং প্রতিবন্ধী ব্যক্তিদের অন্তর্ভুক্তি।
+            </p>
+          </div>
+
+          <!-- Module 3 -->
+          <div class="card">
+            <div class="card-icon-box">৩</div>
+            <span class="badge badge-primary" style="margin-bottom: 0.75rem;" data-i18n="m3Sub">এনপিএ মূলনীতি: প্রাণ ও প্রকৃতি সুরক্ষা</span>
+            <h3 style="margin-bottom: 0.75rem;" data-i18n="m3Title">প্রাণ, প্রকৃতি ও জলবায়ু নাগরিকত্ব</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="m3Desc">
+              বায়ু, পানি ও বর্জ্য ব্যবস্থাপনা, বুড়িগঙ্গা ও হালদা নদী সংরক্ষণ, পরিবেশ আইন ও জলবায়ু অভিযোজন।
+            </p>
+          </div>
+
+          <!-- Module 4 -->
+          <div class="card">
+            <div class="card-icon-box">৪</div>
+            <span class="badge badge-primary" style="margin-bottom: 0.75rem;" data-i18n="m4Sub">এনপিএ মূলনীতি: সামাজিক ন্যায়বিচার</span>
+            <h3 style="margin-bottom: 0.75rem;" data-i18n="m4Title">অর্থনীতি, শ্রম ও জবাবদিহি</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="m4Desc">
+              ন্যায্য মজুরি, অনানুষ্ঠানিক শ্রম, মূল্যস্ফীতি, জাতীয় বাজেট, তথ্য অধিকার আইন (RTI) ও দুর্নীতি দমন।
+            </p>
+          </div>
+
+          <!-- Module 5 -->
+          <div class="card">
+            <div class="card-icon-box">৫</div>
+            <span class="badge badge-amber" style="margin-bottom: 0.75rem;" data-i18n="m5Sub">নতুন ক্ষেত্র: তথ্য সুরক্ষার অধিকার</span>
+            <h3 style="margin-bottom: 0.75rem;" data-i18n="m5Title">ডিজিটাল নাগরিকত্ব ও সাইবার সচেতনতা</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="m5Desc">
+              গুজব ও ডিপফেক শনাক্তকরণ, ব্যক্তিগত তথ্যের সুরক্ষা (ডেটা প্রাইভেসি), ডিজিটাল নিরাপত্তা ও অনলাইন নিরাপত্তা।
+            </p>
+          </div>
+
+          <!-- Syllabus CTA Card -->
+          <div class="card" style="background: var(--primary); color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;">
+            <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem;">বিস্তারিত গাইড</span>
+            <h3 style="color: #ffffff; margin-bottom: 0.75rem;">সম্পূর্ণ সিলেবাস ডাউনলোড করুন</h3>
+            <p style="color: rgba(255,255,255,0.85); margin-bottom: 1.5rem; font-size: 0.95rem;">
+              প্রতিটি মডিউলের প্রস্তাবিত বই, রেফারেন্স লিংক এবং নমুনা প্রশ্ন দেখে প্রস্তুতি শুরু করুন।
+            </p>
+            <a href="/syllabus.html" class="btn btn-white">সিলেবাস দেখুন →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION QUOTE BANNER -->
+    <div class="container">
+      <div class="vision-banner">
+        <div class="vision-pattern"></div>
+        <div class="vision-content">
+          <blockquote class="vision-quote font-serif-bn" data-i18n="visionQuote">
+            “আমাদের লক্ষ্য বাংলাদেশের জনগণের জন্য এমন একটি রাজনৈতিক শক্তি গড়ে তোলা, যা দেশের গণতান্ত্রিক রূপান্তরের প্রক্রিয়াকে তার যৌক্তিক পরিণতির দিকে এগিয়ে নেবে।”
+          </blockquote>
+          <p class="vision-author" data-i18n="visionSource">— Network for People’s Action (NPA) ঘোষণাপত্র</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 ROUNDS STRUCTURE -->
+    <section style="padding: 4rem 0;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="roundsTag">প্রতিযোগিতার রূপরেখা</span>
+          <h2 class="font-serif-bn" data-i18n="roundsTitle">৩টি ধাপ — যোগ্যতার অগ্নিপরীক্ষা</h2>
+          <p data-i18n="roundsDesc">
+            অনলাইন বাছাই থেকে শুরু করে বিভাগীয় কেস বিশ্লেষণ এবং ঢাকায় জমকালো জাতীয় গ্র্যান্ড ফাইনাল।
+          </p>
+          <div class="divider-line"></div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          <!-- Stage 1 -->
+          <div class="card" style="border-top: 4px solid var(--primary);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="badge badge-primary">ধাপ ১</span>
+              <span style="font-weight: 800; color: var(--primary);">৬০ নম্বর</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;" data-i18n="r1Title">১. অনলাইন বাছাই পর্ব</h3>
+            <p style="color: var(--accent-amber); font-weight: 700; font-size: 0.9rem; margin-bottom: 1rem;" data-i18n="r1Date">
+              ৯ জানুয়ারি ২০২৭, শনিবার সকাল ১০:০০
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="r1Format">
+              ৬০টি MCQ প্রশ্ন, ৪৫ মিনিট সময়, কোনো নেগেটিভ মার্কিং নেই। ঢাকা ও চট্টগ্রাম থেকে শীর্ষ ৩০০+৩০০ = ৬০০ জন কোয়ালিফাই করবেন।
+            </p>
+            <a href="/program.html#stage1" style="font-weight: 700; font-size: 0.9rem;">নিয়মাবলী জানুন →</a>
+          </div>
+
+          <!-- Stage 2 -->
+          <div class="card" style="border-top: 4px solid var(--primary);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="badge badge-primary">ধাপ ২</span>
+              <span style="font-weight: 800; color: var(--primary);">১০০ (+১০ বোনাস)</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;" data-i18n="r2Title">২. বিভাগীয় পর্ব</h3>
+            <p style="color: var(--accent-amber); font-weight: 700; font-size: 0.9rem; margin-bottom: 1rem;" data-i18n="r2Date">
+              ২৩ জানুয়ারি ২০২৭, শনিবার (ঢাকা ও চট্টগ্রাম)
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="r2Format">
+              ৯০ মিনিটের লিখিত কেস অ্যানালাইসিস (২টি কেস) + ৫ মিনিটের মৌখিক ডিফেন্স। প্রতি শহর থেকে শীর্ষ ১০ জন করে মোট ২০ জন ফাইনালিস্ট।
+            </p>
+            <a href="/program.html#stage2" style="font-weight: 700; font-size: 0.9rem;">নিয়মাবলী জানুন →</a>
+          </div>
+
+          <!-- Stage 3 -->
+          <div class="card" style="border-top: 4px solid var(--accent-amber);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="badge badge-amber">চূড়ান্ত পর্ব</span>
+              <span style="font-weight: 800; color: var(--accent-amber);">১০০ নম্বর</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;" data-i18n="r3Title">৩. গ্র্যান্ড ফাইনাল</h3>
+            <p style="color: var(--accent-amber); font-weight: 700; font-size: 0.9rem; margin-bottom: 1rem;" data-i18n="r3Date">
+              ৩০ জানুয়ারি ২০২৭, শনিবার (ঢাকা)
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;" data-i18n="r3Format">
+              ৪টি মঞ্চ: র‍্যাপিড ফায়ার, কেস স্প্রিন্ট, ৩ মিনিটের পলিসি পিচ এবং লাইভ সংকট সমাধান (Live Dilemma)।
+            </p>
+            <a href="/program.html#stage3" style="font-weight: 700; font-size: 0.9rem;">নিয়মাবলী জানুন →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CIVIC PROJECT DIFFERENTIATOR -->
+    <section style="padding: 5rem 0; background: var(--bg-surface);">
+      <div class="container">
+        <div style="background: var(--bg-card); border: 2px solid var(--border-primary); border-radius: var(--radius-xl); padding: 3rem; box-shadow: var(--shadow-lg);">
+          <div style="display: flex; flex-wrap: wrap; gap: 2.5rem; align-items: center;">
+            <div style="flex: 1 1 500px;">
+              <span class="badge badge-primary" data-i18n="projectTag">আমাদের অনন্য স্বকীয়তা</span>
+              <h2 class="font-serif-bn" style="margin: 1rem 0;" data-i18n="projectTitle">৭ দিনের নাগরিক প্রকল্প (Civic Action Project)</h2>
+              <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;" data-i18n="projectDesc">
+                শুধু কুইজ নয় — অলিম্পিয়াড আপনাকে একজন সক্রিয় সংগঠক হিসেবে দেখতে চায়। বিভাগীয় পর্বের ৬০০ জন প্রতিযোগী নিজ এলাকায় একটি ছোট বাস্তব সমস্যার সমাধান করবেন এবং ২ পৃষ্ঠার প্রমাণসহ প্রতিবেদন জমা দেবেন। এতে থাকবে ১০ অতিরিক্ত বোনাস নম্বর!
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                <div style="background: var(--bg-surface); padding: 1rem; border-radius: var(--radius-md); border-left: 3px solid var(--primary);">
+                  <strong style="color: var(--primary);">৪ নম্বর</strong>
+                  <div style="font-size: 0.88rem; color: var(--text-muted);">সমস্যা চিহ্নিতকরণের স্পষ্টতা</div>
+                </div>
+                <div style="background: var(--bg-surface); padding: 1rem; border-radius: var(--radius-md); border-left: 3px solid var(--primary);">
+                  <strong style="color: var(--primary);">৩ নম্বর</strong>
+                  <div style="font-size: 0.88rem; color: var(--text-muted);">জনগণের প্রত্যক্ষ সম্পৃক্ততা</div>
+                </div>
+                <div style="background: var(--bg-surface); padding: 1rem; border-radius: var(--radius-md); border-left: 3px solid var(--primary);">
+                  <strong style="color: var(--primary);">৩ নম্বর</strong>
+                  <div style="font-size: 0.88rem; color: var(--text-muted);">ফলাফল ও সৎ আত্মউপলব্ধি</div>
+                </div>
+              </div>
+              <a href="/program.html#civic-project" class="btn btn-primary">প্রকল্প গাইডলাইন দেখুন →</a>
+            </div>
+
+            <div style="flex: 1 1 320px; background: var(--primary-50); border: 1px dashed var(--primary); border-radius: var(--radius-lg); padding: 2rem;">
+              <h4 style="color: var(--primary); margin-bottom: 1rem;">কেন এটি গুরুত্বপূর্ণ?</h4>
+              <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; font-size: 0.95rem; color: var(--text-main);">
+                <li style="display: flex; gap: 0.5rem;">
+                  <span style="color: var(--primary); font-weight: bold;">✓</span>
+                  <span>প্রকল্প ব্যর্থ হলেও সততা ও শিক্ষার স্বীকৃতি থাকে।</span>
+                </li>
+                <li style="display: flex; gap: 0.5rem;">
+                  <span style="color: var(--primary); font-weight: bold;">✓</span>
+                  <span>নিজের মহল্লা বা ক্যাম্পাসের স্থানীয় সংকট দূরীকরণে ভূমিকা।</span>
+                </li>
+                <li style="display: flex; gap: 0.5rem;">
+                  <span style="color: var(--primary); font-weight: bold;">✓</span>
+                  <span>শীর্ষ ২০ জন ফেলোশিপ ও পলিসি ল্যাবে যোগদানের সুযোগ পাবেন।</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE ROADMAP -->
+    <section style="padding: 5rem 0;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="timelineTag">গুরুত্বপূর্ণ তারিখসমূহ</span>
+          <h2 class="font-serif-bn" data-i18n="timelineTitle">ক্যালেন্ডার ও সময়সূচি</h2>
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="timeline-stepper">
+          <div class="timeline-step">
+            <div class="step-marker">১</div>
+            <div class="step-content">
+              <span class="badge badge-primary" data-i18n="d1">১ ডিসেম্বর ২০২৬ – ৩ জানুয়ারি ২০২৭</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d1Title">নিবন্ধন পর্ব (উন্মুক্ত ও সম্পূর্ণ ফ্রি)</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">ঢাকা ও চট্টগ্রাম অঞ্চলের শিক্ষার্থী ও তরুণদের জন্য অনলাইন ফর্ম উন্মুক্ত থাকবে।</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">২</div>
+            <div class="step-content">
+              <span class="badge badge-primary" data-i18n="d2">৬ জানুয়ারি ২০২৭</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d2Title">অ্যাডমিট কার্ড প্রকাশ ও আসন বিন্যাস</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">রেজিস্ট্রেশন নম্বর দিয়ে অনলাইন পোর্টাল থেকে অ্যাডমিট কার্ড ডাউনলোড করা যাবে।</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">৩</div>
+            <div class="step-content">
+              <span class="badge badge-amber" data-i18n="d3">৯ জানুয়ারি ২০২৭ (সকাল ১০:০০)</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d3Title">অনলাইন প্রিলিমিনারি পরীক্ষা (MCQ)</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">৪৫ মিনিটে ৬০টি বহুনির্বাচনী প্রশ্ন। মোবাইল বা ল্যাপটপ থেকে ঘরে বসেই অংশগ্রহণ।</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">৪</div>
+            <div class="step-content">
+              <span class="badge badge-primary" data-i18n="d4">১৬ জানুয়ারি ২০২৭</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d4Title">অনলাইন ফলাফল ও অফিসিয়াল উত্তরমালা প্রকাশ</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">স্বচ্ছতার অংশ হিসেবে পূর্ণাঙ্গ আনসার-কী এবং উত্তীর্ণ ৬০০ জনের তালিকা প্রকাশ।</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">৫</div>
+            <div class="step-content">
+              <span class="badge badge-primary" data-i18n="d5">২৩ জানুয়ারি ২০২৭</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d5Title">বিভাগীয় লিখিত পর্ব (ঢাকা ও চট্টগ্রাম ভেন্যু)</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">সরাসরি ভেন্যুতে কেস অ্যানালাইসিস ও ভাইভা। (বিকল্প তারিখ: ২৪ জানুয়ারি)।</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">৬</div>
+            <div class="step-content">
+              <span class="badge badge-amber" data-i18n="d6">৩০ জানুয়ারি ২০২৭</span>
+              <h4 style="margin: 0.5rem 0;" data-i18n="d6Title">গ্র্যান্ড ফাইনাল ও পুরস্কার বিতরণী অনুষ্ঠান</h4>
+              <p style="color: var(--text-muted); font-size: 0.92rem; margin: 0;">ঢাকায় চূড়ান্ত ২০ জন ফাইনালিস্টের লাইভ বিতর্ক, পলিসি পিচ ও সম্মাননা প্রদান।</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="/schedule.html" class="btn btn-secondary">বিস্তারিত সময়সূচি ও ভেন্যু দেখুন →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ETHICAL CALLOUT -->
+    <section style="padding: 4rem 0; background: var(--bg-surface); border-top: 1px solid var(--border);">
+      <div class="container-narrow text-center">
+        <h3 class="font-serif-bn" style="color: var(--primary); margin-bottom: 1rem;" data-i18n="footerEthics">আমাদের রাজনৈতিক ও নৈতিক অঙ্গীকার</h3>
+        <p style="font-size: 1.05rem; color: var(--text-main); line-height: 1.8; margin-bottom: 2rem;" data-i18n="ethicsText">
+          প্রতিযোগিতায় অংশগ্রহণের জন্য কোনো রাজনৈতিক দলের সদস্যপদ বা ফি বাধ্যতামূলক নয়। সম্পূর্ণ মেধা ও স্বচ্ছতার ভিত্তিতে নিরপেক্ষ জুরিবোর্ড দ্বারা মূল্যায়ন সম্পন্ন হয়।
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="/register.html" class="btn btn-primary btn-lg" data-i18n="btnStartRegister">এখনই নিবন্ধন করুন</a>
+          <a href="/faq.html" class="btn btn-secondary btn-lg" data-i18n="navFaq">প্রশ্নোত্তর পড়ুন</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-wrapper" style="margin-bottom: 1.25rem;">
+            <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 44px;">
+            <div class="brand-text-block">
+              <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+              <span class="brand-sub">Good Citizen Olympiad 2027</span>
+            </div>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;" data-i18n="footerDesc">
+            সুনাগরিক অলিম্পিয়াড হলো তরুণ প্রজন্মের সাংবিধানিক সাক্ষরতা, নাগরিক অধিকার সচেতনতা ও নেতৃত্ব বিকাশের উন্মুক্ত জাতীয় মঞ্চ। আয়োজনে: Network for People's Action (NPA)।
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerQuickLinks">প্রয়োজনীয় লিংক</h4>
+          <ul class="footer-links">
+            <li><a href="/" data-i18n="navHome">মূলপাতা</a></li>
+            <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+            <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস ও পাঠ্যতালিকা</a></li>
+            <li><a href="/schedule.html" data-i18n="navSchedule">সময়সূচি ও ভেন্যু</a></li>
+            <li><a href="/quiz.html" data-i18n="navQuiz">অনলাইন মডেল টেস্ট</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footerContact">যোগাযোগ</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:olympiad@ournpa.org">olympiad@ournpa.org</a></li>
+            <li><a href="https://ournpa.org" target="_blank" rel="noopener">www.ournpa.org</a></li>
+            <li><a href="https://www.facebook.com/ournpa/" target="_blank" rel="noopener">Facebook: @ournpa</a></li>
+            <li><a href="https://www.instagram.com/ournpa/" target="_blank" rel="noopener">Instagram: @ournpa</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>স্বচ্ছতা ও নীতি</h4>
+          <ul class="footer-links">
+            <li><a href="/faq.html#privacy">তথ্য সুরক্ষা ও গোপনীয়তা নীতি</a></li>
+            <li><a href="/program.html#rubric">স্বচ্ছ মূল্যায়ন পদ্ধতি</a></li>
+            <li><a href="/program.html#integrity">নৈতিক আচরণবিধি</a></li>
+            <li><a href="/faq.html">আপিল প্রক্রিয়া</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © ২০২৬–২০২৭ সুনাগরিক অলিম্পিয়াড | Network for People's Action (NPA)
+        </div>
+        <div>
+          Theme: Light / Dark | Cloudflare Pages Ready
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/translations.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

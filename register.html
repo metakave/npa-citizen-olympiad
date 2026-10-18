@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>অনলাইন নিবন্ধন | সুনাগরিক অলিম্পিয়াড ২০২৭</title>
+  <meta name="description" content="সুনাগরিক অলিম্পিয়াড ২০২৭ এ বিনামূল্যে নিবন্ধন করুন। তাত্ক্ষণিক অ্যাপ্লিকেশন আইডি ও প্রিন্টযোগ্য অ্যাডমিট স্লিপ সংগ্রহ করুন।">
+  <link rel="icon" type="image/png" href="/assets/images/npa-logo.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/" class="brand-wrapper">
+          <img src="/assets/images/npa-logo.png" alt="NPA Logo" class="brand-logo-img">
+          <div class="brand-text-block">
+            <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+            <span class="brand-sub" data-i18n="brandSubtitle">Network for People's Action</span>
+          </div>
+        </a>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/" class="nav-link" data-i18n="navHome">মূলপাতা</a></li>
+            <li><a href="/program.html" class="nav-link" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+            <li><a href="/syllabus.html" class="nav-link" data-i18n="navSyllabus">সিলেবাস</a></li>
+            <li><a href="/schedule.html" class="nav-link" data-i18n="navSchedule">সময়সূচি</a></li>
+            <li><a href="/quiz.html" class="nav-link" data-i18n="navQuiz">মডেল টেস্ট</a></li>
+            <li><a href="/faq.html" class="nav-link" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn-icon-toggle lang-toggle-btn" aria-label="Toggle Language" title="Toggle Language">EN</button>
+          <button class="btn-icon-toggle theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme"></button>
+          <a href="/register.html" class="btn btn-primary nav-cta-btn active" data-i18n="btnRegister">নিবন্ধন করুন</a>
+          <button class="btn-mobile-menu" aria-label="Open Navigation Menu">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <div class="brand-wrapper">
+        <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 38px;">
+        <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+      </div>
+      <button class="btn-close-drawer btn-icon-toggle">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="/" data-i18n="navHome">মূলপাতা</a></li>
+      <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+      <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস</a></li>
+      <li><a href="/schedule.html" data-i18n="navSchedule">সময়সূচি</a></li>
+      <li><a href="/quiz.html" data-i18n="navQuiz">মডেল টেস্ট</a></li>
+      <li><a href="/faq.html" data-i18n="navFaq">সাধারণ জিজ্ঞাসা</a></li>
+    </ul>
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 1rem;">
+      <a href="/register.html" class="btn btn-primary btn-lg" style="width: 100%; text-align: center;" data-i18n="btnRegister">নিবন্ধন করুন</a>
+    </div>
+  </div>
+
+  <main style="padding-top: 120px; padding-bottom: 60px;">
+    <div class="container-narrow">
+      
+      <!-- Page Header -->
+      <div class="section-header" style="margin-bottom: 2.5rem;">
+        <span class="badge badge-primary" style="margin-bottom: 0.75rem;">সম্পূর্ণ ফ্রি নিবন্ধন</span>
+        <h1 class="font-serif-bn">সুনাগরিক অলিম্পিয়াড নিবন্ধন ফরম</h1>
+        <p>ফরমটি পূরণ করতে মাত্র ২ মিনিট সময় লাগবে। সফল নিবন্ধনের সাথে সাথেই আপনার তাৎক্ষণিক অ্যাপ্লিকেশন আইডি এবং প্রবেশপত্র তৈরি হবে।</p>
+        <div class="divider-line"></div>
+      </div>
+
+      <!-- Registration Form Card -->
+      <div class="card" id="reg-form-card" style="box-shadow: var(--shadow-lg);">
+        <form id="olympiad-reg-form" novalidate>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label class="form-label" for="reg-fullname">পূর্ণ নাম (Full Name) <span style="color: var(--accent-red);">*</span></label>
+              <input type="text" id="reg-fullname" class="form-control" placeholder="আপনার পূর্ণ নাম লিখুন" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+              <label class="form-label" for="reg-phone">সচল মোবাইল নম্বর (Phone Number) <span style="color: var(--accent-red);">*</span></label>
+              <input type="tel" id="reg-phone" class="form-control" placeholder="01XXXXXXXXX" pattern="01[3-9][0-9]{8}" required>
+              <small style="color: var(--text-subtle); font-size: 0.8rem;">অনলাইন পরীক্ষার ওটিপি ও প্রবেশপত্র এই নম্বরে পাঠানো হবে</small>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+            <!-- Email -->
+            <div class="form-group">
+              <label class="form-label" for="reg-email">ইমেইল ঠিকানা (Email Address - ঐচ্ছিক)</label>
+              <input type="email" id="reg-email" class="form-control" placeholder="example@gmail.com">
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="form-group">
+              <label class="form-label" for="reg-dob">জন্মতারিখ (Date of Birth) <span style="color: var(--accent-red);">*</span></label>
+              <input type="date" id="reg-dob" class="form-control" required>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+            <!-- Target City -->
+            <div class="form-group">
+              <label class="form-label" for="reg-city">অংশগ্রহণের শহর (Target City) <span style="color: var(--accent-red);">*</span></label>
+              <select id="reg-city" class="form-control" required>
+                <option value="">শহর নির্বাচন করুন</option>
+                <option value="DHK">ঢাকা (Dhaka)</option>
+                <option value="CTG">চট্টগ্রাম (Chattogram)</option>
+              </select>
+            </div>
+
+            <!-- Specific Thana/Ward/Area -->
+            <div class="form-group">
+              <label class="form-label" for="reg-area">থানা / ওয়ার্ড / এলাকা (Area / Thana) <span style="color: var(--accent-red);">*</span></label>
+              <input type="text" id="reg-area" class="form-control" placeholder="যেমন: মিরপুর / আগ্রাবাদ / ধানমন্ডি" required>
+            </div>
+          </div>
+
+          <!-- Educational Institution -->
+          <div class="form-group">
+            <label class="form-label" for="reg-institution">শিক্ষা প্রতিষ্ঠান / পেশা (Institution or Profession) <span style="color: var(--accent-red);">*</span></label>
+            <input type="text" id="reg-institution" class="form-control" placeholder="বিশ্ববিদ্যালয়, কলেজ বা প্রতিষ্ঠানের নাম" required>
+          </div>
+
+          <!-- Source Code / Referral Tracking -->
+          <div class="form-group">
+            <label class="form-label" for="reg-source">কীভাবে অলিম্পিয়াডের খবর জানতে পেরেছেন? (Source)</label>
+            <select id="reg-source" class="form-control">
+              <option value="WEB">অফিসিয়াল ওয়েবসাইট</option>
+              <option value="FB">ফেসবুক / সামাজিক যোগাযোগ মাধ্যম</option>
+              <option value="AMB-DU">ক্যাম্পাস অ্যাম্বাসেডর (ঢাকা বিশ্ববিদ্যালয়)</option>
+              <option value="AMB-CU">ক্যাম্পাস অ্যাম্বাসেডর (চট্টগ্রাম বিশ্ববিদ্যালয়)</option>
+              <option value="AMB-OTHER">ক্যাম্পাস অ্যাম্বাসেডর (অন্যান্য শিক্ষাপ্রতিষ্ঠান)</option>
+              <option value="FRIEND">বন্ধু / পরিচিতজন মারফত</option>
+              <option value="OTHER">অন্যান্য মাধ্যম</option>
+            </select>
+          </div>
+
+          <!-- Separate Ethical Consent Checkboxes (Unticked by default) -->
+          <div style="background: var(--bg-surface); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border); margin: 2rem 0;">
+            <h4 style="font-size: 1rem; color: var(--primary); margin-bottom: 1rem;">নৈতিক ও আইনি সম্মতিপত্র:</h4>
+
+            <!-- Checkbox 1: Event Rules & Honour Code -->
+            <label class="form-check">
+              <input type="checkbox" id="consent-rules" required>
+              <span class="form-check-label">
+                <strong>অলিম্পিয়াড অংশগ্রহণ ও সততা বিধি:</strong> আমি সুনাগরিক অলিম্পিয়াডের সকল নিয়মাবলী ও পরীক্ষার সততা আচরণবিধি মেনে চলতে এবং সঠিক তথ্য প্রদানে অঙ্গীকার করছি। <span style="color: var(--accent-red);">*</span>
+              </span>
+            </label>
+
+            <!-- Checkbox 2: Political Opt-in (Separate & Voluntary) -->
+            <label class="form-check" style="margin-bottom: 0;">
+              <input type="checkbox" id="consent-party">
+              <span class="form-check-label">
+                <strong>এনপিএ সদস্যপদ ও নাগরিক ফোরাম (সম্পূর্ণ ঐচ্ছিক):</strong> আমি Network for People's Action (NPA)-এর নীতি ও ঘোষণাপত্রের সাথে একাত্ম হয়ে প্ল্যাটফর্মের আজীবন ফ্রি সদস্য হতে এবং ভবিষ্যৎ পলিসি ল্যাবে যুক্ত হতে সম্মতি প্রদান করছি। (এটি প্রতিযোগিতার ফলাফল বা পুরস্কার প্রাপ্তির ক্ষেত্রে কোনো প্রভাব ফেলবে না)।
+              </span>
+            </label>
+          </div>
+
+          <!-- Error Alert Banner -->
+          <div id="form-error-alert" style="display: none; background: rgba(225, 29, 72, 0.1); border: 1px solid var(--accent-red); color: var(--accent-red); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.5rem; font-size: 0.95rem;">
+            অনুগ্রহ করে তারকাচিহ্নিত (*) সকল তথ্য সঠিকভাবে পূরণ করুন এবং অংশগ্রহণ বিধিতে সম্মতি দিন।
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" id="btn-submit-reg" class="btn btn-primary btn-lg" style="width: 100%;">
+            নিবন্ধন সম্পন্ন করুন এবং আইডি সংগ্রহ করুন →
+          </button>
+        </form>
+      </div>
+
+      <!-- Generated Admit Card / Ticket (Hidden initially) -->
+      <div id="admit-ticket-view" style="display: none;">
+        
+        <div style="text-align: center; margin-bottom: 1.5rem;" class="no-print">
+          <div style="background: rgba(16, 185, 129, 0.15); color: #065f46; border: 1px solid var(--accent-emerald); display: inline-block; padding: 0.5rem 1.5rem; border-radius: var(--radius-full); font-weight: 700; margin-bottom: 1rem;">
+            ✓ আপনার নিবন্ধন সফলভাবে সম্পন্ন হয়েছে!
+          </div>
+          <h2 class="font-serif-bn">আপনার সুনাগরিক প্রবেশপত্র (Admit Slip)</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">এই আইডিটি সংরক্ষণ করুন এবং নিচের বাটনে ক্লিক করে প্রবেশপত্রটি প্রিন্ট বা পিডিএফ হিসেবে সেভ করে রাখুন।</p>
+        </div>
+
+        <div class="admit-ticket">
+          <div class="ticket-header">
+            <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 48px; margin: 0 auto 0.75rem auto;">
+            <h3 class="font-serif-bn" style="color: var(--primary); margin-bottom: 0.25rem;">সুনাগরিক অলিম্পিয়াড ২০২৭</h3>
+            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Good Citizen Olympiad · Official Admit Slip</div>
+            <div class="ticket-badge-id" id="ticket-id-display">GCO27-DHK-0000</div>
+          </div>
+
+          <div class="ticket-grid">
+            <div>
+              <div class="ticket-field-label">প্রতিযোগীর নাম</div>
+              <div class="ticket-field-val" id="ticket-name-display">-</div>
+            </div>
+            <div>
+              <div class="ticket-field-label">মোবাইল নম্বর</div>
+              <div class="ticket-field-val" id="ticket-phone-display">-</div>
+            </div>
+            <div>
+              <div class="ticket-field-label">অংশগ্রহণের অঞ্চল</div>
+              <div class="ticket-field-val" id="ticket-city-display">-</div>
+            </div>
+            <div>
+              <div class="ticket-field-label">এলাকা / থানা</div>
+              <div class="ticket-field-val" id="ticket-area-display">-</div>
+            </div>
+            <div>
+              <div class="ticket-field-label">প্রতিষ্ঠান / পেশা</div>
+              <div class="ticket-field-val" id="ticket-inst-display">-</div>
+            </div>
+            <div>
+              <div class="ticket-field-label">এনপিএ সদস্যপদ স্ট্যাটাস</div>
+              <div class="ticket-field-val" id="ticket-member-display" style="color: var(--primary);">-</div>
+            </div>
+          </div>
+
+          <div style="border-top: 1px dashed var(--border); padding-top: 1.25rem; font-size: 0.88rem; color: var(--text-muted);">
+            <div><strong>অনলাইন বাছাই পরীক্ষা:</strong> ৯ জানুয়ারি ২০২৭, শনিবার সকাল ১০:০০ টা।</div>
+            <div><strong>লগইন পোর্টাল:</strong> https://olympiad.ournpa.org</div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;" class="no-print">
+          <button onclick="window.print()" class="btn btn-primary btn-lg">🖨️ প্রবেশপত্র প্রিন্ট করুন</button>
+          <a href="/quiz.html" class="btn btn-secondary btn-lg">মডেল টেস্ট দিন →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-wrapper" style="margin-bottom: 1.25rem;">
+            <img src="/assets/images/npa-logo.png" alt="NPA Logo" style="height: 44px;">
+            <div class="brand-text-block">
+              <span class="brand-title" data-i18n="brandTitle">সুনাগরিক অলিম্পিয়াড</span>
+              <span class="brand-sub">Network for People's Action</span>
+            </div>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;" data-i18n="footerDesc">
+            সুনাগরিক অলিম্পিয়াড হলো তরুণ প্রজন্মের সাংবিধানিক সাক্ষরতা, নাগরিক অধিকার সচেতনতা ও নেতৃত্ব বিকাশের উন্মুক্ত জাতীয় মঞ্চ। আয়োজনে: Network for People's Action (NPA)।
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footerQuickLinks">প্রয়োজনীয় লিংক</h4>
+          <ul class="footer-links">
+            <li><a href="/" data-i18n="navHome">মূলপাতা</a></li>
+            <li><a href="/program.html" data-i18n="navProgram">পরিকল্পনা ও ফরম্যাট</a></li>
+            <li><a href="/syllabus.html" data-i18n="navSyllabus">সিলেবাস ও পাঠ্যতালিকা</a></li>
+            <li><a href="/schedule.html" data-i18n="navSchedule">সময়সূচি ও ভেন্যু</a></li>
+            <li><a href="/quiz.html" data-i18n="navQuiz">অনলাইন মডেল টেস্ট</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footerContact">যোগাযোগ</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:olympiad@ournpa.org">olympiad@ournpa.org</a></li>
+            <li><a href="https://ournpa.org" target="_blank" rel="noopener">www.ournpa.org</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>স্বচ্ছতা ও নীতি</h4>
+          <ul class="footer-links">
+            <li><a href="/faq.html#privacy">তথ্য সুরক্ষা ও গোপনীয়তা নীতি</a></li>
+            <li><a href="/faq.html">আপিল প্রক্রিয়া</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© ২০২৬–২০২৭ সুনাগরিক অলিম্পিয়াড | Network for People's Action (NPA)</div>
+        <div>Theme: Light / Dark | Cloudflare Pages Ready</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/translations.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+  <!-- Registration Submission Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('olympiad-reg-form');
+      const formCard = document.getElementById('reg-form-card');
+      const admitView = document.getElementById('admit-ticket-view');
+      const errorAlert = document.getElementById('form-error-alert');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        errorAlert.style.display = 'none';
+
+        const fullName = document.getElementById('reg-fullname').value.trim();
+        const phone = document.getElementById('reg-phone').value.trim();
+        const email = document.getElementById('reg-email').value.trim();
+        const dob = document.getElementById('reg-dob').value;
+        const city = document.getElementById('reg-city').value;
+        const area = document.getElementById('reg-area').value.trim();
+        const institution = document.getElementById('reg-institution').value.trim();
+        const source = document.getElementById('reg-source').value;
+        const consentRules = document.getElementById('consent-rules').checked;
+        const consentParty = document.getElementById('consent-party').checked;
+
+        // Validation
+        if (!fullName || !phone || !dob || !city || !area || !institution || !consentRules) {
+          errorAlert.style.display = 'block';
+          errorAlert.scrollIntoView({ behavior: 'smooth' });
+          return;
+        }
+
+        // Generate Structured ID: GCO27-[DHK/CTG]-[Random 4 Digits]
+        const randomNum = Math.floor(1000 + Math.random() * 9000);
+        const appId = `GCO27-${city}-${randomNum}`;
+
+        const regData = {
+          appId,
+          fullName,
+          phone,
+          email,
+          dob,
+          city: city === 'DHK' ? 'Dhaka (ঢাকা)' : 'Chattogram (চট্টগ্রাম)',
+          area,
+          institution,
+          source,
+          consentPartyMember: consentParty ? 'Yes (যুক্ত হতে আগ্রহী)' : 'Contestant Only (শুধুমাত্র প্রতিযোগী)',
+          registeredAt: new Date().toISOString()
+        };
+
+        // If backend API endpoint is defined in config.js, submit via fetch
+        if (window.GCO_CONFIG && window.GCO_CONFIG.apiEndpoint) {
+          fetch(window.GCO_CONFIG.apiEndpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(regData)
+          }).catch(err => console.error('Submission error:', err));
+        }
+
+        // Store locally in browser storage for instant verification
+        try {
+          const pastRegs = JSON.parse(localStorage.getItem('gco_registrations') || '[]');
+          pastRegs.push(regData);
+          localStorage.setItem('gco_registrations', JSON.stringify(pastRegs));
+          localStorage.setItem('gco_latest_registration', JSON.stringify(regData));
+        } catch (e) {
+          console.error(e);
+        }
+
+        // Populate Ticket View
+        document.getElementById('ticket-id-display').textContent = appId;
+        document.getElementById('ticket-name-display').textContent = fullName;
+        document.getElementById('ticket-phone-display').textContent = phone;
+        document.getElementById('ticket-city-display').textContent = regData.city;
+        document.getElementById('ticket-area-display').textContent = area;
+        document.getElementById('ticket-inst-display').textContent = institution;
+        document.getElementById('ticket-member-display').textContent = regData.consentPartyMember;
+
+        // Show Ticket View with smooth animation
+        formCard.style.display = 'none';
+        admitView.style.display = 'block';
+        admitView.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
